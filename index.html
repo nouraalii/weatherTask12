@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-page">
+      <div class="container">
+        <a class="d-flex text-decoration-none py-4" href="/">
+          <img src="images/logo.png" alt="" class="object-fit-contain pe-3">
+          <div class="text-white">
+              <h1 class="fs-6 fw-bold">Weather</h1>
+              <span class="fs-9 nav-span-color">tagline goes here</span>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item hover-nav px-2">
+              <a class="nav-link active fs-7 py-0 px-4 border border-2 border-primary rounded-pill text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2 hover-nav">
+              <a class="nav-link text-white fs-7 rounded-pill py-lg-0 px-ly-4" href="#">News</a>
+            </li>
+            <li class="nav-item px-2 hover-nav">
+              <a class="nav-link text-white fs-7 rounded-pill py-0 px-4" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item px-2 hover-nav">
+              <a class="nav-link text-white fs-7 rounded-pill py-0 px-4" href="#">Photos</a>
+            </li>
+            <li class="nav-item px-2 hover-nav">
+              <a class="nav-link text-white fs-7 rounded-pill py-0 px-4" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- ---------------main------------- -->
+  <!-- -------------------search------------------- -->
+      <div class="bg-image">
+        <div class="search container position-relative pt-5">
+            <input type="text" placeholder="Find your location..." id="search" class="search-input text-white w-100 m-0">
+            <input type="button" value="Find" id="submit" class="search-button py-0 text-white m-0">
+        </div>
+        <!-- -------------------card------------------- -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="current-weather"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="forecast-1" class="forecast-card"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="forecast-2" class="forecast-card"></div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------footer------------------- -->
+        <footer class="site-footer px-0 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 position-relative">
+                  <input type="text" placeholder="Enter your email to subscribe..." class="email-input text-white w-100 m-0">
+                  <input type="submit" value="Subscribe" class="email-button py-0 text-white m-0">
+              </div>
+              <div class="col-md-3 col-md-offset-1">
+                <div class="social-links">
+                  <a href="#" class="text-decoration-none text-center fs-10"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" class="text-decoration-none text-center fs-10"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="text-decoration-none text-center fs-10"><i class="fa-brands fa-google-plus-g"></i></a>
+                  <a href="#" class="text-decoration-none text-center fs-10"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+              </div>
+            </div>
+    
+            <p class="mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+        </footer>
+      </div>
+
+
+
+
+
+
+
+    <script src="css/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

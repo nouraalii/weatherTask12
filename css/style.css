@@ -1,0 +1,171 @@
+body{
+    background: #1e202b;
+    
+}
+
+.bg-page{
+    background-color: #1e202b;
+}
+
+.nav-span-color{
+    color: #bfc1c8;
+}
+
+.bg-image{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hover-nav a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+  }
+.current-hover-nav a, .hover-nav:hover a {
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+.form-control::placeholder{
+    color: #6b6c6d;
+}
+
+.bg-cards{
+    background-color: #323544;
+}
+
+.cards-opacity{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card{
+    height: 90%;
+}
+
+.bg-middle{
+    background-color: #262936;
+}
+
+.search{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+
+.search-input{
+    font-size: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    outline: none;
+}
+
+.search-button{
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    bottom: 3px;
+    padding:40px;
+    cursor: pointer;
+}
+
+
+.site-footer{
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    background: #262936;
+    padding: 50px;
+}
+
+.email-input{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+}
+
+.email-button{
+    cursor: pointer;
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    right: 18px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.social-links{
+    color: #bfc1c8;
+    font-size: 14px;
+}
+
+.social-links a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    padding-top: 2px;
+    transition: 0.3s ease;
+    
+}
+
+.social-links a:hover{
+    color: white;
+    background: #009ad8;
+}
+
+/* -------------------fonts--------------- */
+.fs-9{
+    font-size: 0.6rem;
+}
+
+.fs-7{
+    font-size: 0.9rem;
+    
+}
+
+.fs-10{
+    font-size: 1.3rem;
+}
+
+.fs-16{
+    font-size: 6rem;
+}
+/* -----------------margin and padding---------------- */
+
+.pt-7{
+    padding-top: 7rem;
+}
+
+/* -----------------position---------------- */
+.end-8{
+    right: 8%;
+}
+
+
+
+
+
+
+
